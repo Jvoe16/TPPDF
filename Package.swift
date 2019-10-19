@@ -11,14 +11,9 @@ let package = Package(
             name: "TPPDF",
             targets: ["TPPDF"]),
     ],
-    dependencies: [
-        .package(
-        url: "https://github.com/realm/SwiftLint.git", from: "0.35.0")
-       ],
     targets: [
             .target(
-                name: "TPPDF",
-                dependencies: ["swiftlint","SwiftLintFramework"]
+                name: "TPPDF"
         )
     ]
 )
