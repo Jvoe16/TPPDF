@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "TPPDF",
     platforms: [
-        .iOS(.v8)],
+        .iOS(.v12)],
     products: [
         .library(
             name: "TPPDF",
