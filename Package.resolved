@@ -65,6 +65,15 @@
         }
       },
       {
+        "package": "SwiftLint",
+        "repositoryURL": "https://github.com/realm/SwiftLint.git",
+        "state": {
+          "branch": null,
+          "revision": "8dc8421a49f2b74f79da3ef514a26249027309b9",
+          "version": "0.35.0"
+        }
+      },
+      {
         "package": "SwiftyTextTable",
         "repositoryURL": "https://github.com/scottrhoyt/SwiftyTextTable.git",
         "state": {
