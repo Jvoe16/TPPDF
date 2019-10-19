@@ -18,7 +18,7 @@ let package = Package(
     targets: [
             .target(
                 name: "TPPDF",
-                dependencies: ["SwiftLint"]
+                dependencies: ["swiftlint","SwiftLintFramework"]
         )
     ]
 )
